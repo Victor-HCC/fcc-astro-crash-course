@@ -32,7 +32,7 @@ const { Content } = await post.render();
 <Layout title={post.data.title}>
 	<Main>
 		<H1 text={post.data.title} />
-    <Image src={post.data.image} width={1024} height={1024 / 1.5} alt={post.data.title} class="rounded-2xl text-zinc-900 font-semibold inline-block">
+    <Image src={post.data.image} width={1024} height={1024 / 1.5} alt={post.data.title} class="rounded-2xl text-zinc-900 font-semibold inline-block" />
     <div class="prose prose-2xl overflow-visible relative mb-20">
       <Content />
     </div>
